@@ -78,6 +78,7 @@ public class Variables {
 		// ctrl + MAY + 7 comenta todas las lineas que estan señaladas
 		
 		//comentario para github
+		//Segundo comentario para github
 
 
 	}
