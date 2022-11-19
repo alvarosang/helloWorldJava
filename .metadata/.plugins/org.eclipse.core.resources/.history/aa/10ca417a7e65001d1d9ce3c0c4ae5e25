@@ -1,0 +1,12 @@
+package test;
+
+public class Inherit {
+
+	public static void main(String[] args) {
+		MySubClass mySubClass = new MySubClass();
+		mySubClass.superClassMethod();
+		System.out.println(mySubClass.superStr);
+
+	}
+
+}

@@ -1,0 +1,66 @@
+package test;
+
+public class MyClass2 {
+	
+	//int i = 0;
+
+	public static void main(String[] args) {
+		MyClass2 myClass2 = new MyClass2();
+		myClass2.ifElseCheck();
+		myClass2.forLoopCheck();
+		myClass2.forEachLoopCheck();
+		myClass2.whileLoopCheck();
+
+	}
+	
+	public void ifElseCheck() {
+		boolean flag1 = false;
+		String str = "myStr";
+		
+		if(str.equalsIgnoreCase("myStr")|| flag1) {
+			// & significa YES ; || significa OR
+			System.out.println("I am in if");
+			
+		} else {
+			System.out.println("I am in else");
+			
+		}
+		
+	}
+	
+	public void forLoopCheck() {
+		
+		for (int i = 0 ; i< 5 ; i++) {
+			System.out.println("i is " + i);
+			if(i ==3) {
+				break;
+				//continue;
+			}
+		}
+		
+	}
+	
+	public void forEachLoopCheck() {
+		String[] myArray = {"a","b","c"};
+		
+		for(String str : myArray) {
+			System.out.println(str);
+			if(str.equalsIgnoreCase("b")) {
+				break;
+			}
+		}
+		
+	}
+	
+	public void whileLoopCheck() {
+		int e = 5;
+		
+		while(e>0) {
+			System.out.println("e is" + e);
+			
+		}
+		
+	}
+	
+
+}

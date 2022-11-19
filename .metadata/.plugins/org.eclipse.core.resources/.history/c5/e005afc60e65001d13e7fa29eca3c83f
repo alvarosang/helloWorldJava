@@ -1,0 +1,17 @@
+package test;
+
+public class MySuperClass {
+	
+	String superstr = "super class String";
+	
+	public void superClassMethod() {
+		
+		System.out.println("Super class method");
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

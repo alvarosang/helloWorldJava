@@ -1,0 +1,22 @@
+package test;
+
+public class MyClass {
+	
+	//fields - parameters - variables - int,float,double, boolean ,string
+	//constructors
+	//methods
+	
+	int i = 5;
+	
+	public MyClass() {
+		
+		
+	}
+
+	public static void main(String[] args) {
+		MyClass myClass = new MyClass();
+		System.out.println(myClass.i);
+
+	}
+
+}

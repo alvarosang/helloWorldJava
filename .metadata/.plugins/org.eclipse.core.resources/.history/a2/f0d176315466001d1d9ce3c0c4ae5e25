@@ -1,0 +1,11 @@
+package polymorphism;
+
+public class Contractor {
+	
+	@Override
+	int salary(){
+		return base + 10000;
+		
+	}
+
+}

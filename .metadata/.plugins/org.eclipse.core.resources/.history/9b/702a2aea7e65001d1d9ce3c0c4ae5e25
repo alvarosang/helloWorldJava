@@ -1,0 +1,23 @@
+package test;
+
+public class MySuperClass {
+	
+	String superStr = "super class String";
+	
+	
+	
+	public MySuperClass() {
+		System.out.println("super class constructor ");
+	}
+	
+	public void superClassMethod() {
+		
+		System.out.println("Super class method");
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

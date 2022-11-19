@@ -1,0 +1,13 @@
+package polymorphism;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		Employee e = new FullTime();
+		System.out.println("Full time employee is: "+e.salary());
+		
+		e = new Contractor();
+
+	}
+
+}

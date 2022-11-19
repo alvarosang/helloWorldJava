@@ -1,0 +1,15 @@
+package test;
+
+public class MySubClass extends MySuperClass{
+	
+	public MySubClass() {
+		System.out.println("sub class constructor");
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
