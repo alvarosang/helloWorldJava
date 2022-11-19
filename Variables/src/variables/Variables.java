@@ -76,6 +76,8 @@ public class Variables {
 		System.out.println(biVal);
 		
 		// ctrl + MAY + 7 comenta todas las lineas que estan señaladas
+		
+		//comentario para github
 
 
 	}
